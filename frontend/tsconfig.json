@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "jsx": "preserve",
+      "lib": ["dom", "es2017"],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "noEmit": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "preserveConstEnums": true,
+      "removeComments": false,
+      "noImplicitAny": false,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "strict": true,
+      "target": "esnext",
+      "types": [
+          "@types/react",
+          "@types/next",
+          "@types/styled-components"
+      ]
+    }
+  }
